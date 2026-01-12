@@ -1,6 +1,6 @@
 # PPdesmantling
 
-Online appendix for the reflection paper "Mapping policy dismantling through portfolio reductions. Capturing clearcutting or targeted pruning?". FPP&PA.
+Online appendix for the reflection paper "*Mapping policy dismantling through portfolio reductions. Capturing clearcutting or targeted pruning?*", for the course FPP&PA.
 
 - **do-file** contains all the stata scripts for the data cleaning, processing and analysis, including the logit models and printing of tables.
 
