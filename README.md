@@ -11,9 +11,7 @@ Online appendix for the reflection paper "*Mapping policy dismantling through po
         - Fernández-i-Marín, X., Knill, C. & Steinebach, Y. (2021). Studying Policy Design Quality in Comparative Perspective. _American Political Science Review_, online first.
         - Knill, C., Schulze, K. & Tosun, J. (2012). Regulatory Policy Outputs and Impacts. Exploring a Complex Relationship. _Regulation & Governance_, 5(4), 427-444.         doi:10.1111/j.17485991.2012.01150.x.
 
-- **polcon.csv** is the political constraints dataset. The file name is "POLCON_2017.tab", and was extracted from:
-
-        - Fernández-i-Marín, X.; Knill, C.; Steinebach, Y. (2021). "Replication material for "Studying Policy Design Quality in Comparative Perspective"", https://doi.org/10.7910/DVN/M5SDCH, Harvard Dataverse, V1.
+- **polcon.csv** is the political constraints dataset, as extracted from Fernández-i-Marín, X.; Knill, C.; Steinebach, Y. (2021). "Replication material for "Studying Policy Design Quality in Comparative Perspective"", https://doi.org/10.7910/DVN/M5SDCH, Harvard Dataverse, V1. The file name is "POLCON_2017.tab".
 
 - **dismantling_episodes.docx** contains the clean table with portfolio size reduction episodes, included as annex to the paper.
   
