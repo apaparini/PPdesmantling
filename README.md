@@ -6,7 +6,7 @@ Online appendix for the reflection paper "*Mapping policy dismantling through po
 
 - **wdi_extract.csv** is an export from the World Bank World Development Indicators (2025), as available at https://databank.worldbank.org/source/world-development-indicators#. The selected variables were _Government Effectiveness: Estimate_ (GE.EST), _GDP per capita (constant 2015 US$)_ (NY.GDP.PCAP.KD), _GDP growth (annual %)_ (NY.GDP.MKTP.KD.ZG) and _Trade (% of GDP)_ (NE.TRD.GNFS.ZS). The export included all countries for the period 1976-2005.
 
-- **consensus.csv** is the data from the Consensus research project, as extracted from the following sources:
+- **consensus.csv** is the data from the Consensus research project, as extracted from https://publicpolicy-knill.org/?post-type=research&post_id=2019?post-type=research&post_id=2019?post-type=research&post_id=2019. Sources:
 
         - Fernández-i-Marín, X., Knill, C. & Steinebach, Y. (2021). Studying Policy Design Quality in Comparative Perspective. _American Political Science Review_, online first.
         - Knill, C., Schulze, K. & Tosun, J. (2012). Regulatory Policy Outputs and Impacts. Exploring a Complex Relationship. _Regulation & Governance_, 5(4), 427-444.         doi:10.1111/j.17485991.2012.01150.x.
