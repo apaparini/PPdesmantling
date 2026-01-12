@@ -164,47 +164,6 @@ drop _merge
 compress executivepartydom
 save "panel_polcon.dta", replace
 
-
-*** THIS SECTION NEEDS REWORKING, AS THERE IS NO EXACT MATCH BETWEEN PARTY NAMES***
-// Merge with V-Party data
-//Prepare V-Party
-use "V-Dem-CPD-Party-V2.dta", clear
-rename country_name country
-rename v2paenname executivepartydom
-keep country year executivepartydom v2xpa_popul
-
-// Fix for the duplicates in Zimbabwe, Chile and North Macedonia, which are irrelevant for the analysis
-duplicates tag country year executivepartydom, gen(dup) 
-drop if dup == 1
-drop dup
-save "VParty.dta", replace
-
-preserve
-    use "panel_polcon.dta", clear
-    keep country year executivepartydom
-    duplicates drop
-    tempfile exec_party_year
-    save `exec_party_year'
-restore
-
-preserve
-    use `exec_party_year', clear
-	compress executivepartydom
-    merge m:1 country year executivepartydom using "VParty.dta"
-    keep if _merge == 1 | _merge == 3
-    drop _merge
-    tempfile exec_party_year_popul
-    save `exec_party_year_popul'
-restore
-
-use "panel_polcon.dta", clear
-merge m:1 country year executivepartydom using `exec_party_year_popul'
-keep if _merge == 1 | _merge == 3
-drop _merge
-save "final_panel.dta", replace
-
-*********
-
 *** #4/Optional FIX FOR GOV EFF DATA //Just in case, in my case the original export was faulty
 clear
 import delimited using "wdi_goveff.csv", varnames(1)
