@@ -13,5 +13,5 @@ Online appendix for the reflection paper "Mapping policy dismantling through por
 - **polcon.csv** is the political constraints dataset, as extracted from Fernández-i-Marín, X.; Knill, C.; Steinebach, Y. (2021). "Replication material for "Studying Policy Design Quality in Comparative Perspective"", https://doi.org/10.7910/DVN/M5SDCH, Harvard Dataverse, V1. The file name is "POLCON_2017.tab"
 
 - **dismantling_episodes.docx** contains the clean table with portfolio size reduction episodes, included as annex.
-
-_ **gov_eff_means.docx** is a clean table of Government Effectiveness mean values during the period of analysis.
+  
+- **gov_eff_means.docx** is a clean table of Government Effectiveness mean values during the period of analysis.
